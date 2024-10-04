@@ -1,0 +1,76 @@
+.container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .heading {
+    text-align: center;
+    color: #333;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .thead {
+    background-color: #f4f4f4;
+  }
+  
+  .th {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    color: #333;
+  }
+  
+  .tr {
+    transition: background-color 0.3s ease;
+  }
+  
+  .tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .deleteButton {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .deleteButton:hover {
+    background-color: #ff1a1a;
+  }
+  
+  .editButton {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .editButton:hover {
+    background-color: #45a049;
+  }
+  
+  .no-user {
+    text-align: center;
+    font-weight: bold;
+  }
